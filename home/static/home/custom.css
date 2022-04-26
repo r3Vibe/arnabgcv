@@ -39,10 +39,6 @@ a:hover{
 }
 
 .topsection .mydp{
-    /* position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
     width: 300px;
     height: 300px;
     border-radius: 50%;
@@ -61,10 +57,6 @@ a:hover{
 }
 
 .topsection .welcomenote{
-    /* position: absolute;
-    top: 68%;
-    left: 50%;
-    transform: translate(-50%,-50%); */
     color: white;
     font-size: 40px;
     font-weight: bold;
@@ -73,20 +65,27 @@ a:hover{
     z-index: 2;
 }
 
+
 .aboutmesection{
     background-color: rgb(0, 0, 0);
     padding: 20px;
-    /* min-height: auto !important; */
 }
 
 .aboutmesection ul{
     padding: 5px;
-    margin: 10px;
     list-style: none;
     font-size: 20px;
 }
 
+.aboutmesection .spanstyle span{
+    font-size: 35px;
+}
+
 .skillsection{
+    color: black !important;
+}
+
+.skillsection-sm{
     color: black !important;
 }
 
@@ -102,6 +101,7 @@ a:hover{
 .projectsection{
     background-color: rgb(0, 0, 0);
     color: white;
+    padding: 20px;
 }
 
 .btn-new{
@@ -115,6 +115,10 @@ a:hover{
     height: 15rem;
 }
 
+.projectsection .row .col{
+    margin: 5px;
+}
+
 .footnote{
     display: flex;
     align-items: center;
@@ -123,3 +127,46 @@ a:hover{
     color: #fff;
     text-shadow: 1px 1px black;
 }
+
+.spanstyle{
+    margin-top: 50px;
+}
+
+.skillsection-sm{
+    display: none;
+}
+
+@media (max-width: 576px) { 
+    .aboutmesection .spanstyle span{
+        font-size: 25px;
+    }
+    .aboutmesection .spanstyle .eq{
+        font-size: 23px;
+    }
+    .aboutmesection{
+        padding: 10px;
+    }
+    .mytable table{
+        font-size: 13px; 
+    }
+    .skillsection{
+        display: none;
+    }
+    .skillsection-sm{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+ }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) {  }

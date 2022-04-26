@@ -15,8 +15,8 @@
 <section class="aboutmesection section">
     <div class="container-fluid">
         <div class="row row-cols-3">
-            <div class="col">
-                <span style='border-bottom:1px solid white;font-size:35px;padding:5px'>Personal Information</span>
+            <div class="col w-100 spanstyle">
+                <span style='border-bottom:1px solid white;padding:5px'>Personal Information</span>
                 <ul>
                     <li>Name: Arnab Gupta</li>
                     <li>Age: 26Y</li>
@@ -31,14 +31,14 @@
         </div>
         <div class="row row-cols-3">
             <div class="col"></div>
-            <div class="col" style="text-align:center">
-                <span style='border-bottom:1px solid white;font-size:30px;padding:5px'>Educational Qualifications</span>
+            <div class="col spanstyle w-100" style="text-align:center">
+                <span style='border-bottom:1px solid white;padding:5px' class='eq'>Educational Qualifications</span>
             </div>
             <div class="col"></div>
         </div>
         <div class="row row-cols-1">
-            <div class="col align-self-center">
-                <table class="table table-dark table-hover table-bordered" style="text-align:center;margin-top:20px;width:99%">
+            <div class="col w-100 d-flex align-items-center justify-content-center mytable">
+                <table class="table table-sm table-dark table-hover table-bordered" style="text-align:center;margin-top:20px;width:70%;vertical-align:middle;">
                     <thead>
                         <th>Exam</th>
                         <th>Board</th>
@@ -81,7 +81,7 @@
                 <span style='border-bottom:1px solid black;font-size:35px;color:black;padding:5px'>Skills</span>
             </div>
         </div>
-        <div class="row row-cols-2 justify-content-center" style="margin-top:30px">
+        <div class="row row-cols-2  justify-content-center" style="margin-top:30px">
             <div class="col">
                 <div class="card" style="width: 18rem;">
                     <img class="card-img-top" src="{% static 'home/html.jpg' %}" alt="Card image cap">
@@ -152,14 +152,89 @@
         </div>
     </div>
 </section>
+<section class="skillsection-sm section">
+    <div class="container">
+        <div class="row row-cols-1">
+            <div class="col align-self-center" style="text-align:center">
+                <span style='border-bottom:1px solid black;font-size:35px;color:black;padding:5px'>Skills</span>
+            </div>
+        </div>
+        <div class="row row-cols-2 " style="margin-top:30px">
+            <div class="col w-100 d-flex align-align-items-center justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'home/html.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Web Development</h5>
+                      <p class="card-text" style="text-transform:capitalize">i know frontend development in html css javascript jquery and bootstrap</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col w-100 d-flex align-align-items-center justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'home/py.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Python Programming</h5>
+                      <p class="card-text" style="text-transform:capitalize">i know basic to advanced python from scripting to backend development with django and scocket programming</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col w-100 d-flex align-align-items-center justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'home/data.jpeg' %}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Data Analysis</h5>
+                      <p class="card-text" style="text-transform:capitalize">currently i am learning data analysis with python pandas numpy and other modules to help different websites collect customer data</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col w-100 d-flex align-align-items-center justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'home/sol.jpg' %}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Solidity</h5>
+                      <p class="card-text" style="text-transform:capitalize">i am learning solidity as well for blockchain based web applications with react and node. solidity is used for contract development</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col w-100 d-flex align-align-items-center justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'home/node.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Nodejs</h5>
+                      <p class="card-text" style="text-transform:capitalize">comfortable working with node and react applications</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row row-cols-2">
+            <div class="col w-100 d-flex align-align-items-center justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'home/git.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">GitHub</h5>
+                      <p class="card-text" style="text-transform:capitalize">i can do version control with git and manage different branches to control workflow</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
 <section class="projectsection section">
     <div class="container-fluid">
-        <div class="row row-cols-1 ">
+        <div class="row">
             <div class="col" style="text-align:center">
                 <span style='border-bottom:1px solid white;font-size:35px;padding:5px'>Projects</span>
             </div>
         </div>
-        <div class="row row-cols-3 mt-4">
+        <div class="row  mt-4">
             <div class="col d-flex align-items-center justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
@@ -188,7 +263,7 @@
                 </div>
             </div>
         </div>
-        <div class="row row-cols-3 mt-4">
+        <div class="row">
             <div class="col d-flex align-items- justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">

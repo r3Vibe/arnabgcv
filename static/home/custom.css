@@ -81,9 +81,12 @@ a:hover{
 
 .aboutmesection ul{
     padding: 5px;
-    margin: 10px;
     list-style: none;
     font-size: 20px;
+}
+
+.aboutmesection .spanstyle span{
+    font-size: 35px;
 }
 
 .skillsection{
@@ -123,3 +126,22 @@ a:hover{
     color: #fff;
     text-shadow: 1px 1px black;
 }
+
+
+@media (max-width: 576px) { 
+    .aboutmesection .spanstyle span{
+        font-size: 20px;
+    }
+ }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+
+@media (min-width: 1400px) {  }
