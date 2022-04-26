@@ -1,0 +1,125 @@
+body{
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Inconsolata', monospace;
+}
+a{
+    text-decoration: none;
+    color: tomato;
+}
+a:hover{
+    color: blueviolet;
+}
+.section{
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+}
+
+.topsection .covertop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: auto;
+    width: auto;
+}
+.topsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.topsection .covertop img{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+.topsection .mydp{
+    /* position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 5px solid white;
+    z-index: 5;
+    box-shadow: 0 15px 15px -15px white;
+}
+
+.topsection .mydp img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center center;
+    border-radius: 50%;
+}
+
+.topsection .welcomenote{
+    /* position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%,-50%); */
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 4px 4px black;
+    text-align: center;
+    z-index: 2;
+}
+
+.aboutmesection{
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    /* min-height: auto !important; */
+}
+
+.aboutmesection ul{
+    padding: 5px;
+    margin: 10px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.skillsection{
+    color: black !important;
+}
+
+.container .row{
+    margin: 10px;
+}
+
+.card{
+    border: 1px solid black;
+    box-shadow: 0 10px 10px -10px black;
+}
+
+.projectsection{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.btn-new{
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
+}
+
+.projectsection .card{
+    color: black;
+    height: 15rem;
+}
+
+.footnote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(44, 42, 42);
+    color: #fff;
+    text-shadow: 1px 1px black;
+}
