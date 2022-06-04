@@ -49,23 +49,23 @@
                     <tbody>
                         <tr>
                             <td>Madhyamik</td>
-                            <td>WBBSE</td>
+                            <td>WEST BENGAL BOARD OF SECONDARY EDUCATION</td>
                             <td>Nabapalli Boy's High School</td>
                             <td>69.57%</td>
                             <td>2012</td>
                         </tr>
                         <tr>
                             <td>Secondary Education</td>
-                            <td>WBCHSE</td>
+                            <td>WEST BENGAL COUNCIL OF HIGHER SECONDARY EDUCATION</td>
                             <td>Nabapalli Boy's High School</td>
                             <td>50%</td>
                             <td>2014</td>
                         </tr>
                         <tr>
                             <td>Graduation</td>
-                            <td>University of Calcutta</td>
+                            <td>UNIVERSITY OF CALCUTTA</td>
                             <td>Asutosh College</td>
-                            <td>--%</td>
+                            <td>41.45%</td>
                             <td>2020</td>
                         </tr>
                     </tbody>
@@ -146,6 +146,29 @@
                     <div class="card-body">
                       <h5 class="card-title">GitHub</h5>
                       <p class="card-text" style="text-transform:capitalize">i can do version control with git and manage different branches to control workflow</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row row-cols-2 justify-content-center">
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'home/selenium.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Selenium</h5>
+                      <p class="card-text" style="text-transform:capitalize">i can do webautomation with selenium in python</p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row row-cols-2 justify-content-center">
+            <div class="col"></div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="{% static 'home/bs4.png' %}" alt="Card image cap">
+                    <div class="card-body">
+                      <h5 class="card-title">Beautifuloup</h5>
+                      <p class="card-text" style="text-transform:capitalize">web scarpping with python and beautifulsoup</p>
                     </div>
                   </div>
             </div>
@@ -234,37 +257,88 @@
                 <span style='border-bottom:1px solid white;font-size:35px;padding:5px'>Projects</span>
             </div>
         </div>
-        <div class="row  mt-4">
-            <div class="col d-flex align-items-center justify-content-center">
+        <div class="row mt-4 justify-content-center align-items-center">
+            <div class="col col-sm-12 col-md-3 d-flex align-items-center justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h5 class="card-title">Jarvis</h5>
-                      <p class="card-text" style="text-transform:capitalize">fun jarvis project. works with voice commands. but can not actually analyze data.</p>
+                      <p class="card-text" style="text-transform:capitalize">
+                        fun Ai Project although it's not an Ai.
+                        i have used speech_recognition library for voice commands. 
+                        pyttsx3 for text to speech. and few other library for telling jokes,
+                        opening sites, getting details from wiki.
+                      </p>
                       <a href="https://github.com/r3Vibe/jarvis.git" target="_blank" class="btn btn-new">Github Link</a>
                     </div>
                 </div>
             </div>
-            <div class="col d-flex align-items-center justify-content-center">
+            <div class="col col-sm-12 col-md-3 d-flex align-items-center justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h5 class="card-title">The Hidden One</h5>
-                      <p class="card-text" style="text-transform:capitalize">it's a project based on cryptography and stagnography. it can encrypt and decrypt text and files and hide items in an image.</p>
+                      <p class="card-text" style="text-transform:capitalize">
+                        it's a project based on cryptography and stagnography.
+                        it can encrypt and decrypt text and files with password
+                        also hide and reveal items in an image. i have used cryptography
+                        for text encryption, pyAesCrypt for file encryption and stegano
+                        for hiding files in images.  
+                      </p>
                       <a href="https://github.com/r3Vibe/the_hidden_one.git" target="_blank" class="btn btn-new">Github Link</a>
                     </div>
                 </div>
             </div>
-            <div class="col d-flex align-items- justify-content-center">
+            <div class="col col-sm-12 col-md-3 d-flex align-items- justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h5 class="card-title">Farmer's World Auto</h5>
-                      <p class="card-text" style="text-transform:capitalize">this is a web automation project that lets me play farmersworld without interacting with the game. this script imitates mouse clicks.</p>
+                      <p class="card-text" style="text-transform:capitalize">
+                        farmersworld is an online nft based game.
+                        i have used selenium to automate gameplay.
+                        this script can play the game fully aven repair the tools if needed.
+                        it also plays alen world another game on the 2nd tab.
+                      </p>
                       <a href="https://github.com/r3Vibe/farmersworldauto.git" target="_blank" class="btn btn-new">Github Link</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col d-flex align-items- justify-content-center">
+            <div class="col col-sm-12 col-md-3 d-flex align-items- justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Covid-19 App</h5>
+                      <p class="card-text" style="text-transform:capitalize">
+                          This is a python GUI App with web scrapping using beautifulsoup4.
+                          it gets covid data from a website and shows in the gui. due to
+                          updates the apk might not work. but the code can be run from terminal.
+                      </p>
+                      <a href="#" target="_blank" class="btn btn-new">Github Link</a>
+                      <a href="#" target="_blank" class="btn btn-new">Browse Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-12 col-md-3 d-flex align-items- justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">E-comm Website</h5>
+                      <p class="card-text" style="text-transform:capitalize">
+                        I made a fully functional E-commerce Website with custom Login setup in Django.
+                        you can place order and pay online using paymet gateway.
+                      </p>
+                      <a href="#" target="_blank" class="btn btn-new">Github Link</a>
+                      <a href="#" target="_blank" class="btn btn-new">Browse Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-12 col-md-3 d-flex align-items- justify-content-center">
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Blockchain Webapp</h5>
+                      <p class="card-text" style="text-transform:capitalize">I am Learning Solidity and plan to make a blockchain app soon</p>
+                      <a href="#" target="_blank" class="btn btn-new">Github Link</a>
+                      <a href="#" target="_blank" class="btn btn-new">Browse Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-sm-12 col-md-3 d-flex align-items- justify-content-center">
                 <div class="card" style="width: 18rem;">
                     <div class="card-body">
                       <h5 class="card-title">This Site</h5>
@@ -273,31 +347,45 @@
                     </div>
                 </div>
             </div>
-            <div class="col d-flex align-items- justify-content-center">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">E-comm Website</h5>
-                      <p class="card-text" style="text-transform:capitalize">E-commerse Website i build. can be used for placesing orders with a payment gateway. code is available on github.</p>
-                      <a href="#" target="_blank" class="btn btn-new">Github Link</a>
-                      <a href="#" target="_blank" class="btn btn-new">Browse Site</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col d-flex align-items- justify-content-center">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                      <h5 class="card-title">Blockchain Webapp</h5>
-                      <p class="card-text" style="text-transform:capitalize">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae numquam ratione quibusdam itaque, praesentium apdsdfsf</p>
-                      <a href="#" target="_blank" class="btn btn-new">Github Link</a>
-                      <a href="#" target="_blank" class="btn btn-new">Browse Site</a>
-                    </div>
-                </div>
-            </div>
         </div>
     </div>
 </section>
 <section class="footnote section">
-    <h1>Thank You For Visiting</h1>
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col col-sm-12 col-md-4 align-self-center">
+                <form action="{% url 'home:mail' %}" method="post" style='width:400px'>
+                    {% csrf_token %}
+                    <h3>Leave A Reply</h3>
+                    <div class="mb-3">
+                        <label class='form-label' for="name">Name</label>
+                        <input class='form-control' type="text" placeholder='Enter Full Name' id='name' name='name'>
+                    </div>
+                    <div class="mb-3">
+                        <label class='form-label' for="contact">Contact</label>
+                        <input class='form-control' type="text" placeholder='Enter Contact Number' id='contact' name='contact'>
+                    </div>
+                    <div class="mb-3">
+                        <label class='form-label' for="msg">Message</label>
+                        <textarea name="msg" id="msg" cols="30" rows="10" placeholder='Enter A Message' class='form-control'></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <button class='btn btn-success w-100' type='submit'>Submit</button>
+                    </div>
+                </form>
+                <div class="mb-3">
+                    {% if messages %}
+                    <div class="messages">
+                        {% for message in messages %}
+                        <div {% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %} role='alert' aria-hidden=True style="color:white !important">{{ message }}</div>
+                        {% endfor %}
+                    </ul>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <center class='mt-5'><h1>Thank You For Visiting</h1></center>
+    </div>
 </section>
 {% endblock content %}
 

@@ -23,10 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-+(___=*dgs#6^e3lrdscw&1*x+a09ft)b@y8sdmc@@u3a*n1j^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-# ALLOWED_HOSTS = ['*']
-ALLOWED_HOSTS = ['arnabg.pythonanywhere.com']
+ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['arnabg.pythonanywhere.com']
 
 
 # Application definition
@@ -117,11 +117,28 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_URL = 'https://r3vibe.github.io/arnabgcvstatic/static/'
-# STATIC_URL = 'static/'
+# STATIC_URL = 'https://r3vibe.github.io/arnabgcvstatic/static/'
+STATIC_URL = 'static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+from django.contrib.messages import constants as messages
+MESSAGE_TAGS = {
+    messages.ERROR: 'danger',
+}
+
+
+
+EMAIL_HOST              = 'smtp.gmail.com'
+
+EMAIL_PORT              = 587
+
+EMAIL_HOST_USER         = 'arnabgupta84@gmail.com'
+
+EMAIL_HOST_PASSWORD     =  'aqbecfbvcjositre'
+
+EMAIL_USE_TLS           = True
